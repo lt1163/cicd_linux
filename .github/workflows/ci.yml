@@ -31,7 +31,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - name: Build Docker image
-        run: docker build -t lt1163/cicd_linux .
+        run: docker build -t pxggg9260/linux .
 
       - name: Push docker image
-        run: docker push lt1163/cicd_linux:latest
+        run: docker push pxggg9260/linux:latest
